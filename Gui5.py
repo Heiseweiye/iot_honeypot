@@ -44,8 +44,8 @@ class App(QWidget):
         #creating the topBar
         self.topBar = QGroupBox()
         self.horizontalLayout = QHBoxLayout()
-        startButton = QPushButton("START")
-        stopButton = QPushButton("STOP")
+        startButton = QPushButton("开始")
+        stopButton = QPushButton("停止")
         startButton.setFixedSize(100,28)
         stopButton.setFixedSize(100,28)
         self.horizontalLayout.addWidget(startButton,0,Qt.AlignRight)
