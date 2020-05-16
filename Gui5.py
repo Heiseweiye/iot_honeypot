@@ -24,7 +24,7 @@ class App(QWidget):
 
     def __init__(self):
         super(App,self).__init__()
-        self.title = 'IotHoneyPot'
+        self.title = 'IOT-POT'
         self.left = 0
         self.top = 0
         desktop = QDesktopWidget()
